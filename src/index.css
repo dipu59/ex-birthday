@@ -1,0 +1,8 @@
+@import "tailwindcss";
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600&display=swap');
+
+
+#heading{
+        font-family: 'Great Vibes', cursive;color: #fff;
+          text-shadow: 0 0 10px #ff80ab; padding: 10px 0px;
+}
