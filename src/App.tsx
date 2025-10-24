@@ -1,8 +1,16 @@
-import BirthdayWishMobile from './Mobile-birthday-wish'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import BirthdayWish from "./greeting";
+import BirthdayWishMobile from "./Mobile-birthday-wish";
 export default function App() {
   return (
-    <div>
-      <BirthdayWishMobile name=" Puja" songSrc="/birthday.mp3" />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={<BirthdayWishMobile name=" Puja" songSrc="/birthday.mp3" />}
+        />
+        <Route path="/birthdayWish" element={<BirthdayWish />} />
+      </Routes>
+    </BrowserRouter>
   );
 }

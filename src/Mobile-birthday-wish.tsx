@@ -1,5 +1,6 @@
 import  { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 
 // Mobile-first single-file React component.
 // Tailwind CSS required. Install framer-motion.
@@ -217,7 +218,7 @@ export default function BirthdayWishMobile({
         <div className="rounded-3xl bg-white/6 backdrop-blur-md p-4 shadow-2xl border border-white/10">
           <div className="flex items-center flex-col justify-between mb-3">
             <div>
-              <HappyMessage >{`Happy Birthday ${
+              <HappyMessage>{`Happy Birthday ${
                 name ? ` ${name}` : " Birthday"
               }`}</HappyMessage>
               <p className="text-xs text-white/80 mt-1 text-center">
@@ -326,6 +327,22 @@ export default function BirthdayWishMobile({
         <p className="text-xs text-white/60 text-center mt-3">
           Built with ❤️ — tap to play if audio is blocked on your device.
         </p>
+        <div className="flex justify-center items-center my-4">
+          <Link to="/birthdayWish">
+            <button
+              className="
+          relative px-8 py-4 rounded-2xl text-white text-lg font-semibold
+          bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500
+          shadow-lg shadow-purple-500/40 active:scale-95
+          transition-all duration-300
+          hover:shadow-purple-500/80
+        "
+            >
+              <span className="absolute inset-0 rounded-2xl bg-white/10 blur-md animate-pulse"></span>
+              <span className="relative z-10">Explore Love Page</span>
+            </button>
+          </Link>
+        </div>
       </div>
 
       {/* small inline styles for cake/visual polish (feel free to move into CSS file) */}
