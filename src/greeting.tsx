@@ -117,7 +117,7 @@ const GreetingHim = () => {
                   <p className="opacity-70">Your Photo</p>
                 </div>
               </div> */}
-              <img src="/second.jpg" alt="" />
+              <img src="/photo2.jpg" alt="" />
             </div>
             {/* Shimmer effect */}
             <motion.div
@@ -146,7 +146,7 @@ const GreetingHim = () => {
                   <p className="opacity-70">His Photo</p>
                 </div>
               </div> */}
-              <img src="/seconds.jpg" alt="" />
+              <img src="/photo1.jpg" alt="" />
             </div>
             {/* Shimmer effect */}
             <motion.div
