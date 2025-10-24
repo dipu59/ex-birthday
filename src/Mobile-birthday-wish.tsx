@@ -327,11 +327,11 @@ export default function BirthdayWishMobile({
         <p className="text-xs text-white/60 text-center mt-3">
           Built with ❤️ — tap to play if audio is blocked on your device.
         </p>
-        <div className="flex justify-center items-center my-4">
+        <div className="flex justify-center mt-40 items-center my-4">
           <Link to="/birthdayWish">
             <button
               className="
-          relative px-8 py-4 rounded-2xl text-white text-lg font-semibold
+          relative px-6 py-3 rounded-2xl text-white text-lg font-semibold
           bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500
           shadow-lg shadow-purple-500/40 active:scale-95
           transition-all duration-300

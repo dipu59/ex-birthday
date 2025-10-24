@@ -93,7 +93,7 @@ const GreetingHim = () => {
           transition={{ delay: 1.5 }}
           className="text-2xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-200 via-rose-200 to-purple-200 mb-6"
         >
-          Your Special Moments
+          Special Moments
         </motion.h2>
 
         {/* Photo Grid */}
